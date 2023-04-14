@@ -1,0 +1,24 @@
+---
+title: "Dr. Jeffrey Mitchell"
+---
+
+## Umeå University
+
+![photo by Joakim Bergqvist](new-1.png){width="1200"}\
+\
+
+I am a sociologist and postdoctoral researcher at the [department of sociology at Umeå University](https://www.umu.se/en/department-of-sociology/) in Sweden. My research focuses on a broad range of topics including prejudice, trust in political institutions, and more recently the effects of social policies and policing. I am particularly interested in how social change occurs over time, both within individuals and across societies, using longitudinal quantitative methods.\
+\
+I am a part of two research groups: [The Evolution of Prejudice](https://www.umu.se/en/research/projects/the-evolution-of-prejudice/)and [The UmU Barometer](https://cors.se/en/umu-barometer/). My work has been published in a variety of international peer-reviewed journals including *European Sociological Review,* *Social Science & Medicine, Ethnic and Racial Studies*, *Frontiers in Sociology*, and *Socius: Sociological Research for a Dynamic World*.\
+\
+In addition to my research I teach courses on sociological theory, comparative social policy, quantitative methods (Master's level), and Open Science for the Social Sciences (PhD level).
+
+**New Publications:**
+
+-   Mitchell, Jeffrey and Guilherme Kenji Chihaya. 2022. "[Track Level Associations Between Historical Residential Redlining and Contemporary Fatal Encounters with the Police](https://www.sciencedirect.com/science/article/pii/S0277953622002957)" **Social Science & Medicine.**
+
+-   Czymara, Christian S., Jeffrey Mitchell. 2022. "[All Cops are Trusted? How Context and Time Shape Immigrants' Trust in the Police in Europe](https://doi.org/10.1080/01419870.2022.2060711)" **Ethnic and Racial Studies.**
+
+-   Eger, Maureen A., Jeffrey Mitchell, and Mikael Hjerm. 2021. "[When I Was Growing Up: The Lasting Impact of Immigrant Presence on Native-Born American Attitudes towards Immigrants and Immigration.](https://academic.oup.com/esr/advance-article/doi/10.1093/esr/jcab038/6365820#.YTfLnjLZX2Y.twitter)" **European Sociological Review.**
+
+-   Mitchell, Jeffrey. 2021. "[Social Trust and Anti-Immigrant Attitudes in Europe: A Longitudinal Multi-Level Analysis](https://www.frontiersin.org/articles/10.3389/fsoc.2021.604884/full)." **Frontiers in Sociology.**
