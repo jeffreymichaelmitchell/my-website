@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+<meta name="date" content="2023-04-13" />
+
+<title>CV</title>
+
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dr. Jeffrey Mitchell</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Research.html">Research</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CV</h1>
+<h4 class="date">2023-04-13</h4>
+
+</div>
+
+
+<center>
+<div id="dr.-jeffrey-mitchell" class="section level2">
+<h2>Dr. Jeffrey Mitchell</h2>
+<p>Department of Sociology,<br />
+Umeå University<br />
+jeffrey.mitchell@umu.se <br />
+(+46) 70 369 5667</p>
+</center>
+<p><strong>Current Position</strong> - Since December 2020 Postdoctoral
+Fellow at the Department of Sociology, Umeå University</p>
+<p><strong>Research Interests</strong> Public opinion, immigration,
+institutions, social change, youth, policing, multi-level and
+longitudinal quantitative analysis</p>
+<p><strong>Education</strong></p>
+<ul>
+<li>2020 Ph.D., Sociology Umeå University, Umeå Sweden Dissertation:
+Prejudice in context over time: how demographic, economic and social
+conditions influence anti-immigrant attitudes in adolescents and
+adults</li>
+<li>2015 M.A., Social Research and Social Justice- Sociology University
+of Nevada, Reno</li>
+<li>2011 B.A. Sociology University of Nevada, Reno</li>
+</ul>
+<p><strong>Professional Experience</strong><br />
+<em>Prior Positions</em></p>
+<ul>
+<li>2016-2020 Doktorand, Umeå University</li>
+<li>2015 Letter of Appointment Lecturer, University of Nevada</li>
+<li>2014-2015 Teaching Assistant, University of Nevada</li>
+</ul>
+<p><em>Research Visits</em></p>
+<ul>
+<li><p>May-Oct 2018 International Visiting Research Fellow at Berlin
+Institute for Integration and Migration Research (BIM), Humboldt
+University</p></li>
+<li><p>March 2018 Eurolab Visiting Scholar at GESIS Leibniz Institute
+for the Social Sciences</p></li>
+</ul>
+<p><strong>Publications</strong><br />
+<em>Doctoral Thesis</em></p>
+<ul>
+<li>Mitchell, J. 2020. ‘Prejudice in context over time: how demographic,
+economic and social conditions influence anti-immigrant attitudes in
+adolescents and adults’. Umeå University, Department of Sociology. <a
+href="http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-167741"
+class="uri">http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-167741</a></li>
+</ul>
+<p><em>Peer reviewed publications</em></p>
+<ul>
+<li>Mitchell, J. and Chihaya, G. K. 2022. ‘Track level associations
+between historical residential redlining and contemporary fatal
+encounters with the police’. <em>Social Science &amp;
+Medicine.</em></li>
+<li>Czymara, C. and Mitchell, J. 2022.”All Cops Are Trusted? How context
+and time shape immigrants’ trust in the police” <em>Ethnic and Racial
+Studies</em>.</li>
+<li>Eger, M., Mitchell, J. and Hjerm, M. 2021. ‘“When I was growing up”:
+The lasting impact of immigrant presence on native-born American
+attitudes towards immigrants and immigration’. <em>European Sociological
+Review.</em> 1-20.</li>
+<li>Mitchell, J. 2021. ‘Social trust and anti-immigrant attitudes in
+Europe: A longitudinal multi-level analysis’. <em>Frontiers in
+Sociology</em>. 6:73.</li>
+<li>Mitchell, J. 2019. ‘Context and Change: A Longitudinal Analysis of
+Attitudes about Immigrants in Adolescence.’ <em>Socius: Sociological
+Research for a Dynamic World</em>. 5: 1-11.</li>
+<li>Mitchell, J. 2019. ‘Prejudice in the classroom: A longitudinal
+analysis of anti- immigrant attitudes.’ <em>Ethnic and Racial
+Studies</em>. 42(9): 1514-1533.</li>
+</ul>
+<p><em>Under Review</em></p>
+<ul>
+<li>Mitchell, J. and La Parra, D. ‘Who gets the blame and who gets the
+credit? Policing, assistance, and political trust among the Roma in
+Europe’. Revise &amp; Resubmit at <em>European Societies</em> Link to
+preprint: <a href="https://osf.io/9vdc5/"
+class="uri">https://osf.io/9vdc5/</a></li>
+<li>Bohman, A., Eger, M., Hjerm, M. and Mitchell, J. ‘Impacts of Covid
+induced academic stress on self-rated health and life satisfaction’
+Revise and Resubmit at <em>European Journal of Higher
+Education</em></li>
+</ul>
+<p><em>Articles In Progress</em></p>
+<ul>
+<li>Eger, M., Mitchell, J., Hjerm, M., and Bohman, A. ‘Attitudinal
+Selection Effects in to University Education: Evidence from Sweden’</li>
+</ul>
+<p><em>Reports</em></p>
+<ul>
+<li>Bohman, A., Eger, M., Hjerm, M. and Mitchell, J. 2021. ’Results from
+the UmU-Barometer Vol. 2</li>
+<li>Bohman, A., Eger, M., Hjerm, M. and Mitchell, J. 2020. ’Results from
+the UmU-Barometer Vol. 1</li>
+</ul>
+<p><em>Data</em></p>
+<ul>
+<li>Bohman, A. Eger, M. Hjerm, M. and Mitchell, J. ’UmU-Barometer: A
+longitudinal cohort study of university students</li>
+</ul>
+<p><strong>Selected Presentations</strong></p>
+<p><em>Conferences</em></p>
+<ul>
+<li>2022 European Consortium of Sociological Research (ECSR), Amsterdam,
+Netherlands</li>
+<li>2020 (Accepted) International Sociological Association (ISA), Porto
+Alegre, Brazil</li>
+<li>2019 European Sociological Association (ESA) Manchester,
+England.</li>
+<li>2018 European Consortium of Sociological Research (ECSR) Paris,
+France.</li>
+<li>2015 Pacific Sociological Association (PSA) Long Beach, CA, USA</li>
+</ul>
+<p><em>Invited Talks</em></p>
+<ul>
+<li>2019 Department of Social Research and Social Justice, University of
+Nevada, Reno</li>
+<li>2018 Department of Sociology and Social Psychology, University of
+Cologne</li>
+<li>2018 Berlin Institute for Integration and Migration Research (BIM),
+Humboldt University</li>
+<li>2018 GESIS Leibniz Institute for the Social Sciences</li>
+</ul>
+<p><strong>Awards and Grants</strong></p>
+<ul>
+<li>2022 Umeå university nominee for the Pro Futura Scientia XVIII</li>
+<li>2021 Umeå university nominee for the Pro Futura Scientia XVII</li>
+<li>2020-2023 Co-applicant. “Examining the liberalizing effect of higher
+education: A longitudinal cohort study of a university student
+population.” The Swedish Research Council (VR). VR 2019- 02996. Project
+Grant for 4,960,000 SEK. (Main applicant: Maureen Eger; Co-applicants:
+Andrea Bohman and Mikael Hjerm.)</li>
+<li>2018 GESIS Eurolab travel grant for 500 EUR</li>
+<li>2018 Kempe travel grant for 19,000 SEK</li>
+</ul>
+<p><strong>Teaching Experience</strong><br />
+</p>
+<p><em>Umeå University</em></p>
+<ul>
+<li>2022- 2023 Open Science in the Social Sciences (Ph.D. level)</li>
+<li>2019-2022 Quantitative Methods (Master’s level) <em>kurs
+anvarig</em></li>
+<li>2019-2022 Comparative Social Policy <em>kurs ansvarig</em></li>
+</ul>
+<p><em>University of Nevada</em></p>
+<ul>
+<li>2015 Principles of Sociology</li>
+<li>2015 Sociological Theory</li>
+<li>2014 Sociology of Religion (Teaching Assistant)</li>
+</ul>
+<p><em>Cumulative total teaching hours: 1217</em></p>
+<p><strong>Professional Service</strong><br />
+</p>
+<p><em>Reviewer for Journals</em></p>
+<ul>
+<li>Acta Sociologica, American Sociological Review (ASR), Comparative
+Political Studies (CPS), Ethnic and Racial Studies (ERS), European
+Sociological Review (ESR), European Societies (ES), Journal of Ethnic
+and Migration Studies (JEMS), International Journal of Comparative
+Sociology (IJCS), International Migration Review (IMR), Social Science
+Research (SSR)</li>
+</ul>
+<p><em>Reviewer for Research Councils</em></p>
+<ul>
+<li>Icelandic Center for Research (rannís)</li>
+</ul>
+<p><em>Departmental and Institutional Service</em></p>
+<ul>
+<li>Criminology program planning group (2023)</li>
+<li>SAMDOK representative for the Department of Sociology
+(2017-2019)</li>
+<li>Umeå University Migration and Integration Network (UMIN) Board
+member (2019-present)</li>
+</ul>
+<p><em>Public Sociology</em></p>
+<ul>
+<li>Eger, Maureen and Jeffrey Mitchell (2018). ‘No, the racial diversity
+of a country does not perfectly predict pro-immigrant attitudes’. Open
+Democracy. <a href="https://tinyurl.com/2ybtr4x6"
+class="uri">https://tinyurl.com/2ybtr4x6</a></li>
+</ul>
+<p><strong>Skills</strong></p>
+<p><em>Languages</em></p>
+<ul>
+<li>Swedish</li>
+<li>English (native speaker)</li>
+</ul>
+<p><em>Statistical Software</em></p>
+<ul>
+<li>R (expert in research and teaching)</li>
+<li>STATA (expert in research)</li>
+<li>SPSS (expert in teaching)</li>
+<li>LimeSurvey (expert in data collection)</li>
+</ul>
+<p><em>Teaching Software</em></p>
+<ul>
+<li>Canvass (expert)</li>
+<li>Cambro (expert)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

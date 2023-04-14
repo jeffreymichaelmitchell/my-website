@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dr. Jeffrey Mitchell</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Research.html">Research</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<center>
+<img src="new-cover-with-fixed-spine-1.webp" width="400" />
+</center>
+<p>My research sits at the intersection of attitudes and the effects of
+structural racism and discrimination in different societies. I defended
+my PhD dissertation in 2020 with the title ’<em>Prejudice in contecxt
+over time: how demographic, economic and social conditions influence
+anti-immigrant attitudes in adolescents and adults’</em>. A full text of
+the introductory chapter, known in Sweden as the <em>kappa</em>, can be
+found <a
+href="http://umu.diva-portal.org/smash/get/diva2:1391008/FULLTEXT01.pdf">here.</a>
+Since my defense, I have expanded my research to include political
+trust, and the effects of policing on society. My work has been
+published in various international peer-reviewed journals. Below I have
+some short summaries of these publications (and preprints) with links to
+the full texts.</p>
+<p><strong>Mitchell, Jeffrey and Daniel La Parra.</strong>”<a
+href="https://osf.io/9vdc5"><strong>Who Gets the Blame and Who Gets the
+Credit? Policing, assistance, and political trust amongst the Roma in
+Europe</strong></a>“. <em>Preprint</em><br />
+Despite being Europe’s largest ethnic minority, there is strikingly
+little systematic quantitative research on how experiences with the
+police, and other government agencies are related to the trust that the
+Roma place in political institutions. This study addresses this gap by
+using EU-MIDIS II data to assess the relationship between institutional
+trust and the experiences the Roma have with the police and assistance
+programs.We show that different experiences relate to trust in
+institutions differently: interactions with the police, either by being
+stopped or assaulted are most strongly associated with lower trust in
+the police and local government. In contrast, those who report having
+received assistance based on their minority membership are associated
+with modestly higher levels of trust across institution types. These
+results are consistent across the countries included in the analysis,
+and highlight the importance of institutional assistance and procedural
+justice in fostering or eroding trust amongst minority populations.</p>
+<p><strong>Mitchell, Jeffrey and Guilherme Kenji Chihaya. 2022. “<a
+href="https://www.sciencedirect.com/science/article/pii/S0277953622002957">Track
+Level Associations Between Historical Residential Redlining and
+Contemporary Fatal Encounters with the Police</a>” Social Science &amp;
+Medicine.</strong><br />
+How does structural racism influence where people are killed during
+encounters with police? We analyzed geo-located incidents of fatal
+encounters with police that occurred between 2000 and 2020 in Census
+tracts that received a classification by the Home Owners Loan
+Corporation (HOLC) during the 1930’s. Hierarchal Bayesian Negative
+Binomial (HBNB) models show that incidents of fatal encounters with
+police in formerly redlined areas are 66% more likely than in zones that
+received the most favorable “A” rating. These differences remain even
+when tract historical and contemporary racial compositions, along with
+contemporary economic conditions, are taken into account. The effects of
+contemporary racial composition and economic conditions overshadow the
+effect of zone classifications only in areas with high proportions of
+Black residents or residents in poverty (&gt;60% or &gt;30%
+respectively). These findings provide evidence of structural biases in
+policing rooted in historical segregation policies.</p>
+<p><strong>Czymara, Christian S., Jeffrey Mitchell. 2022.</strong> “<a
+href="https://doi.org/10.1080/01419870.2022.2060711"><strong>All Cops
+are Trusted? How Context and Time Shape Immigrants’ Trust in the Police
+in Europe</strong></a>” <strong>Ethnic and Racial
+Studies.</strong><br />
+In this study we examine first-generation immigrants’ trust in the
+police in Europe from a comparative and longitudinal perspective. Based
+on roughly 20,000 immigrants observed in 22 countries over 13 years in
+the European Social Survey, results show that initially high levels of
+trust in the police among immigrants tend to erode with the length of
+their stay in the host country. We show that two simultaneous processes
+drive this pattern: a fading reference effect (downward assimilation)
+and an increasing discrimination effect. Cross-national comparisons show
+that, on average, immigrants in countries with more police trust the
+police less. However, there is no effect of police size within
+countries, mostly because police numbers hardly change over time. We
+discuss implications for future research and policy development based on
+our findings.</p>
+<p><strong>Eger, Maureen A., Jeffrey Mitchell, and Mikael Hjerm.
+2021.</strong> “<a
+href="https://academic.oup.com/esr/advance-article/doi/10.1093/esr/jcab038/6365820#.YTfLnjLZX2Y.twitter"><strong>When
+I Was Growing Up: The Lasting Impact of Immigrant Presence on
+Native-Born American Attitudes towards Immigrants and
+Immigration.</strong></a><strong>“</strong> <strong>European
+Sociological Review.</strong><br />
+Scholarship, including seminal research on prejudice, identifies
+adolescence as a critical period for the development of attitudes. Yet
+most sociological research on prejudice, especially in the form of
+anti-immigrant sentiment, focuses on the relationship between
+contemporaneous social conditions and attitudes towards out-groups while
+neglecting the demographic context during one’s impressionable years.
+Therefore, we design research to investigate the relationship among
+temporally distal and temporally proximal sub-national contexts and
+native-born attitudes towards immigration and immigrants. To do this, we
+merge geocoded data from the General Social Survey (1994–2016) with a
+unique US state-level dataset (1900–2015). Results from multilevel
+models reveal that immigrant presence during adolescence is a more
+consistent predictor of attitudes towards immigration and immigrants in
+adulthood. Thus, while the majority of sociological research on
+anti-immigrant sentiment asks <em>if</em> societal conditions matter,
+our results suggest that a more important question is <em>when</em> the
+context matters.</p>
+<p><strong>Mitchell, Jeffrey. 2021</strong>. “<a
+href="https://www.frontiersin.org/articles/10.3389/fsoc.2021.604884/full"><strong>Social
+Trust and Anti-Immigrant Attitudes in Europe: A Longitudinal Multi-Level
+Analysis</strong></a><strong>.</strong>” <strong>Frontiers in
+Sociology.</strong><br />
+Research investigating how social conditions influence attitudes about
+immigrants has focused primarily on demographic and economic factors as
+potential threat inducing contexts that lead to anti-immigrant
+sentiment. However, the empirical evidence supporting this link is
+mixed, while social cohesion indicators such as the influence of social
+trust, have largely been left unexamined. This article uses the European
+Social Survey (2002–2016) to test how differences in social trust, both
+within and between countries influence attitudes about immigrants.
+Results from longitudinal analyses show that countries with higher
+levels of social trust have more favorable attitudes toward immigrants,
+and while changes in social trust over time are small, they result in
+comparably large changes in anti-immigrant attitudes, even when
+controlling for other social factors. These results are robust across
+different model specifications and data sources.</p>
+<p><strong>Mitchell, Jeffrey. 2019</strong>. “<a
+href="https://journals.sagepub.com/doi/10.1177/2378023119855157"><strong>Context
+and Change: A Longitudinal Analysis of Attitudes about Immigrants in
+Adolescence</strong></a>.” <strong>Socius: Sociological Research for a
+Dynamic World</strong><br />
+Research has explored many different relationships between contextual
+influences, such as levels of immigration or economic condition, and
+attitudes about immigrants, with mixed results. These have largely been
+international comparative studies using cross-sectional data, therefore
+they have been unable to make claims about changes in environmental
+context translating to changes in attitudes of respondents. Furthermore,
+the previous literature has almost exclusively tested these
+relationships using data from adults, despite research showing that
+attitudes are most subject to change during adolescence. This study
+addresses these issues by using a longitudinal data set of repeated
+measures of 2,328 German adolescents (about 14–18 years old) over four
+response waves (2010–2014). Using a multilevel analysis, results show
+that contextual changes, including the percentage of foreign-born people
+and unemployment rates within respondents’ states, correspond to changes
+in attitudes toward immigrants consistent with group threat theory.
+These results were stable even when controlling individual-level
+factors.</p>
+<p><strong>Mitchell, Jeffrey. 2019.</strong> “<a
+href="https://www.tandfonline.com/doi/full/10.1080/01419870.2018.1493209"><strong>Prejudice
+in the Classroom: A Longitudinal Analysis of Anti-Immigrant
+Attitudes</strong></a><strong>.</strong>” <strong>Ethnic and Racial
+Studies</strong>.<br />
+This article analyses how the classroom context contributes to attitude
+change in adolescence. By analysing the relationship that the primary
+school classroom context has on anti-immigrant attitudes over time, it
+addresses the single factor fallacy that has troubled previous research
+on classrooms, which has largely tested the contact hypothesis. The
+dataset includes 849 participants over five-time points from 2010 to
+2015. Findings show that over time individual’s anti-immigrant attitudes
+increased in classrooms with a higher average level of anti-immigrant
+sentiment net of the effect of classroom heterogeneity. However, this
+finding was true only while students were still enrolled in the same
+class over the first three waves of the study. After students entered
+high school, the classroom/time interaction effect disappears,
+suggesting that other contextual influences take over. This article
+highlights the crucial importance of classroom context on attitude
+development in adolescence.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
