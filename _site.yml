@@ -5,6 +5,5 @@ navbar:
     - text: "Home"
       href: index.html
 output:
-   html_document:
-    theme: sandstone
+   html_document
     
