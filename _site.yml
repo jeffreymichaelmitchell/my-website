@@ -6,4 +6,5 @@ navbar:
       href: index.html
 output:
    html_document
+output_dir: "."
     
